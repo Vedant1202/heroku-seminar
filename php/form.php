@@ -5,7 +5,7 @@
   $_SESSION['message'] = '';
   $mysqli = new mysqli('us-cdbr-iron-east-01.cleardb.net', 'b47d0a6ca77bf1', '765b9438', 'heroku_8f1bb9bec0ac613');
 
-  if ($-SERVER['REQUEST_METHOD'] == 'POST'){
+  if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $username = $mysqli->real_escape_string($_POST['username']);
     $email = $mysqli->real_escape_string($_POST['email']);
 
