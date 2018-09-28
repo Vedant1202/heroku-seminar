@@ -67,7 +67,7 @@
               <i class="fa fa-user"></i>
             <input type="password" placeholder="Password" name="password"/>
               <i class="fa fa-key"></i>
-            <!-- <a href="#">Forgot your password?</a> -->
+            <a href="../home.html">Go back</a>
             <button type="submit">
               <!-- <i class="spinner"></i> -->
               <span class="state">Log in</span>
