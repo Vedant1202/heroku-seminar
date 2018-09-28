@@ -12,7 +12,7 @@
     $_SESSION['username'] = $username;
     $_SESSION['password'] = $password;
 
-    $sql = "INSERT INTO users (username, password)"
+    $sql = "INSERT INTO userdata (username, password)"
               . "VALUES ('$username', '$password')";
 
       if($mysqli->query($sql) === true){
