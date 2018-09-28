@@ -46,7 +46,7 @@
 
 
     <div class="wrapper">
-    <div class="container" align="center" style="margin-top: 20%;">
+    <div class="container-fluid" align="center" style="margin-top: 8%;">
       <form action="form.php" method="post" class="login">
         <div class="alert alert-error">
           <?= $_SESSION['message'] ?>
