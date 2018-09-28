@@ -16,7 +16,7 @@
               . "VALUES ('$username', '$password')";
 
       if($mysqli->query($sql) === true){
-          $_SESSION['message'] = 'Succesful';
+          $_SESSION['message'] = 'Successful';
           header("location: form.php");
         }
       else {
