@@ -46,7 +46,7 @@
 
 
     <div class="container" align="center">
-      <form action="form.php" method="post">
+      <form action="form.php" method="post" class="login">
         <div class="alert alert-error">
           <?= $_SESSION['message'] ?>
         </div>
