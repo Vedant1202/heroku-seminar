@@ -46,7 +46,7 @@
 
 
     <!-- <div class="wrapper" style="padding: 0px; width: 100%;"> -->
-    <div class="container-fluid" align="center" style="margin-top: 4%;">
+    <div class="container-fluid" align="center" style="margin-top: 7%;">
       <form action="form.php" method="post" class="login">
         <div class="alert alert-error" style="color: red;">
           <?= $_SESSION['message'] ?>
