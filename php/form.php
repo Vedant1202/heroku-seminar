@@ -45,8 +45,8 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
-    <div class="container" align="center">
-      <!-- <div class="wrapper"> -->
+    <div class="wrapper">
+    <div class="container" align="center" style="margin-top: 20%;">
       <form action="form.php" method="post" class="login">
         <div class="alert alert-error">
           <?= $_SESSION['message'] ?>
@@ -77,7 +77,7 @@
           </p>
 
       </form>
-    <!-- </div> -->
+    </div>
 
     </div>
 
