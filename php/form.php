@@ -41,13 +41,16 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/stylesheets/form.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <div class="jumbotron" align="center">
+
+    <div class="container" align="center">
       <form action="form.php" method="post">
         <div class="alert alert-error">
           <?= $_SESSION['message'] ?>
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="text" class="form-control" id="exampleInputEmail1" name="username" aria-describedby="emailHelp" placeholder="Enter email">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
@@ -56,7 +59,23 @@
           <label for="exampleInputPassword1">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button> -->
+        <div class="wrapper">
+          <!-- <form class="login"> -->
+          <p class="title">Log in</p>
+            <input type="text" placeholder="Username" name="username" autofocus/>
+            <i class="fa fa-user"></i>
+            <input type="password" placeholder="Password" name="password"/>
+            <i class="fa fa-key"></i>
+            <!-- <a href="#">Forgot your password?</a> -->
+            <button type="submit">
+              <!-- <i class="spinner"></i> -->
+              <span class="state">Log in</span>
+            </button>
+          <!-- </form> -->
+          <!-- <footer><a target="blank" href="http://boudra.me/">boudra.me</a></footer> -->
+          </p>
+        </div>
 
       </form>
 
