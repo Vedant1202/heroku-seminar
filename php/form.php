@@ -7,13 +7,13 @@
 
   if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $username = $mysqli->real_escape_string($_POST['username']);
-    $email = $mysqli->real_escape_string($_POST['email']);
+    $password = $mysqli->real_escape_string($_POST['password']);
 
     $_SESSION['username'] = $username;
-    $_SESSION['email'] = $email;
+    $_SESSION['password'] = $password;
 
     $sql = "INSERT INTO userdata (username, password)"
-              . "VALUES ('$username', '$email')";
+              . "VALUES ('$username', '$password')";
 
       if($mysqli->query($sql) === true){
           $_SESSION['message'] = 'Succesful';
@@ -58,7 +58,7 @@
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Password</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" name="email" placeholder="Password">
+        <input type="text" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
 
