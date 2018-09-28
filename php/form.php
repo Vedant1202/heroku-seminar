@@ -45,8 +45,8 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
-    <div class="wrapper">
-    <div class="container-fluid" align="center" style="margin-top: 8%;">
+    <div class="wrapper" style="padding: 0px; width: 100%;">
+    <div class="container-fluid" align="center" style="margin-top: 6%;">
       <form action="form.php" method="post" class="login">
         <div class="alert alert-error">
           <?= $_SESSION['message'] ?>
