@@ -23,9 +23,9 @@
           $_SESSION['message'] = 'Failed';
       }
     }
-    else {
-      $_SESSION['message'] = 'Request error';
-    }
+    // else {
+      // $_SESSION['message'] = 'Request error';
+    // }
 
  ?>
 
