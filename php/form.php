@@ -46,7 +46,7 @@
 
 
     <div class="container" align="center">
-      <div class="wrapper">
+      <!-- <div class="wrapper"> -->
       <form action="form.php" method="post" class="login">
         <div class="alert alert-error">
           <?= $_SESSION['message'] ?>
@@ -77,7 +77,7 @@
           </p>
 
       </form>
-    </div>
+    <!-- </div> -->
 
     </div>
 
