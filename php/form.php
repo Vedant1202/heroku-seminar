@@ -45,10 +45,10 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
-    <div class="wrapper" style="padding: 0px; width: 100%;">
-    <div class="container-fluid" align="center" style="margin-top: 6%;">
+    <!-- <div class="wrapper" style="padding: 0px; width: 100%;"> -->
+    <div class="container-fluid" align="center" style="margin-top: 4%;">
       <form action="form.php" method="post" class="login">
-        <div class="alert alert-error">
+        <div class="alert alert-error" style="color: red;">
           <?= $_SESSION['message'] ?>
         </div>
         <!-- <div class="form-group">
@@ -77,7 +77,7 @@
           </p>
 
       </form>
-    </div>
+    <!-- </div> -->
 
     </div>
 
