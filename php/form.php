@@ -69,7 +69,7 @@
         <p class="title">Log in</p>
         <input type="text" placeholder="Username" name="username">
           <i class="fa fa-user"></i>
-        <input type="password" placeholder="Password" name='password'>
+        <input type="text" placeholder="Password" name='password'>
           <i class="fa fa-key"></i>
         <!-- <a href="#">Forgot your password?</a> -->
         <button type="submit">
