@@ -46,6 +46,7 @@
 
 
     <div class="container" align="center">
+      <div class="wrapper">
       <form action="form.php" method="post" class="login">
         <div class="alert alert-error">
           <?= $_SESSION['message'] ?>
@@ -60,13 +61,12 @@
           <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button> -->
-        <div class="wrapper">
           <!-- <form class="login"> -->
           <p class="title">Log in</p>
             <input type="text" placeholder="Username" name="username" autofocus/>
-            <i class="fa fa-user"></i>
+              <i class="fa fa-user"></i>
             <input type="password" placeholder="Password" name="password"/>
-            <i class="fa fa-key"></i>
+              <i class="fa fa-key"></i>
             <!-- <a href="#">Forgot your password?</a> -->
             <button type="submit">
               <!-- <i class="spinner"></i> -->
@@ -75,9 +75,9 @@
           <!-- </form> -->
           <!-- <footer><a target="blank" href="http://boudra.me/">boudra.me</a></footer> -->
           </p>
-        </div>
 
       </form>
+    </div>
 
     </div>
 
